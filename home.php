@@ -83,7 +83,7 @@ include 'components/like_post.php';
                         <a href="view_post.php?post_id=<?= $post_id; ?>"><?= $fetch_posts['title']; ?></a>
                     </h3>
                     <p class="post__body">
-                    <?= $fetch_posts['content']; ?>
+                    <?= substr($fetch_posts['content'], 0, 100); ?>...
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">

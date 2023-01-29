@@ -17,8 +17,6 @@ if(isset($_POST['save'])){
    $title = filter_var($title, FILTER_SANITIZE_STRING);
    $content = $_POST['content'];
    $content = filter_var($content, FILTER_SANITIZE_STRING);
-   $category = $_POST['category'];
-   $category = filter_var($category, FILTER_SANITIZE_STRING);
    $topic_id = $_POST['topic_id'];
    $status = $_POST['status'];
    $status = filter_var($status, FILTER_SANITIZE_STRING);
