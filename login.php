@@ -50,7 +50,6 @@ if(isset($_POST['submit'])){
 <body>
    
 <!-- header section starts  -->
-<?php include 'components/user_header.php'; ?>
 <!-- header section ends -->
 
 <section class="form-container">
