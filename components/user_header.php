@@ -31,7 +31,7 @@ if(isset($message)){
       <nav class="navbar">
          <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
          <a href="posts.php"> <i class="fas fa-angle-right"></i> posts</a>
-         <a href="all_category.php"> <i class="fas fa-angle-right"></i> category</a>
+         <a href="all_topics.php"> <i class="fas fa-angle-right"></i> topics</a>
          <a href="authors.php"> <i class="fas fa-angle-right"></i> authors</a>
          <a href="login.php"> <i class="fas fa-angle-right"></i> login</a>
          <a href="register.php"> <i class="fas fa-angle-right"></i> register</a>
