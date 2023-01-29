@@ -40,7 +40,7 @@ include 'components/like_post.php';
 
 <section class="categories">
 
-   <h1 class="heading">post categories</h1>
+   <h1 class="heading">post topics</h1>
 
    <div class="box-container">
    <?php
